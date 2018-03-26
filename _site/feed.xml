@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/</link>
+    <description></description>
+    <pubDate>Mon, 26 Mar 2018 21:00:46 +0200</pubDate>
+    
+      <item>
+        <title>Let The Game Start</title>
+        <link>http://localhost:4000/2018/03/01/LetsBegin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/01/LetsBegin.html</guid>
+        <description>&lt;h3 id=&quot;the-swiss-hacking-challenge-starts-soon&quot;&gt;The Swiss Hacking Challenge starts soon&lt;/h3&gt;
+
+&lt;p&gt;Dear Hacking-Lab User,&lt;/p&gt;
+
+&lt;p&gt;there will be a European Cyber Security Challenge again this year - let the games begin!&lt;/p&gt;
+
+&lt;p&gt;Germany is first again, and starts its national online qualification today, in Hacking-Lab.&lt;/p&gt;
+
+&lt;p&gt;If you are from Germany and between 14 and 25 years old, take your change and register:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;age 14 to 20:  http://bit.ly/2oGSn42&lt;/li&gt;
+  &lt;li&gt;age 21 to 25:  http://bit.ly/2EYRP4i&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More info on https://www.cscg.de/&lt;/p&gt;
+
+&lt;p&gt;The qualification consists of two steps. After the online qualification (which is running until end of May), the 20 best will meet for a national final to find the ten finalists for the European final in London, UK.&lt;/p&gt;
+
+&lt;p&gt;If you’re not from Germany, stay tuned - qualifiers for other nations will start soon, too!&lt;/p&gt;
+
+&lt;p&gt;Happy hacking!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Mar 2018 00:00:00 +0100</pubDate>
+      </item>
+    
+  </channel>
+</rss>

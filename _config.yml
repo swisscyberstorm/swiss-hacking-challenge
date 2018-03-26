@@ -1,0 +1,44 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+author: Benjamin Fehrensen
+description: Website of the Swiss Hacking Challenge, provided by the Swiss Cyber Storm
+keywords: Swiss Hacking Challenge, Swiss Cyber Storm, SCS, Swiss Final, ECSC, European Cyber Security Challenge 
+myurl: "https://www.swiss-hacking-challenge.ch" # the base hostname & protocol for your site
+
+
+
+# News Title
+NewsTitle: "Latest News"
+
+# Hero Block -- typing on the start site 
+heroImage: "hero.jpg"
+heroTitle: "<typeout>"
+eventDate: "October, 2018"
+typeoutTextValues: '"Swiss Hacking Challenge", "Swiss Hacking Challenge 2018", "SCS 2018"'
+typeoutFallback: "SCS 2018"
+
+
+# Footer
+socialLinks:
+ - {link: "https://twitter.com/swisscyberstorm", icon: "twitter"}
+ - {link: "https://www.facebook.com/SwissCyberStorm", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+ 
+footerLinks:
+ - {link: "https://www.swisscyberstorm.com", text: "Swiss Cyber Strom", icon: "external-link"}
+ - {link: "https://www.europeancybersecuritychallenge.eu/", text: "European Cyber Security Challenge", icon: "external-link"}
+ - {link: "mailto:contact@swisscyberstorm.com", text: "Contact", icon: "envelope"}
+   
+
+# PAGINATION
+paginate: 5
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+
+exclude: ['draft-program','README.md']

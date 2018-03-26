@@ -1,0 +1,73 @@
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<div class="col-md-10 col-lg-offset-2 col-md-offset-2">
+			<div class="media-area">
+				<div class="media row">
+				    <div class="col-sm-12 col-md-2">
+						<a class="float-left" href="{{ site.baseurl | append: page.url }}"
+							alt="{{ page.title }}">
+							<div class="avatar">
+								<img class="media-object" src="{{ page.post_image }}" alt="...">
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-10">
+						<div class="media-body">
+							<h6 class="text-info">{{ page.date | date: "%b %-d, %Y" }}{%
+								if page.author %} • {{ page.author }}{% endif %} {% if page.meta
+								%} • {{ page.meta }}{% endif %}</h6>
+							<div class="row">
+								<div class="col-sm-8 pull-left">
+									<h4 class="media-heading">{{ page.title }}</h4>
+								</div>
+								<div class="col-sm-4 pull-right">
+									<a href="#"
+										onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;"
+										class="btn btn-just-icon btn-link btn-twitter"><i
+										class="fa fa-twitter"></i></a> 
+									<a href="#"
+										onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;"
+										class="btn btn-just-icon btn-link btn-facebook"><i
+										class="fa fa-facebook-square"></i></a> 
+									<a href="#"
+										onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;"
+										class="btn btn-just-icon btn-link btn-google"><i
+										class="fa fa-google"></i></a>
+								</div>
+							</div>
+							<p>{{ content }}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pagination-area">
+				<ul class="pagination justify-content-center text-center">
+
+					{% if page.next.url %}
+					<li class="page-item"><a class="page-link"
+						href="{{ page.next.url | prepend: site.baseurl }}"
+						title="{{ page.next.title | strip_html }}">&laquo;
+							{{page.next.title | strip_html | truncate: 15 }}</a></li> 
+					{% endif %} 
+					{% if page.previous.url %}
+					<li class="page-item"><a class="page-link"
+						href="{{ page.previous.url | prepend: site.baseurl }}"
+						title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a></li> 
+					{% endif %}
+				</ul>
+			</div>
+
+
+			{% if include.isStaticPost == false %}
+			<div class="row text-center">
+				<p class="rss-subscribe">
+					Subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
+				</p>
+			</div>
+			{% endif %}
+
+		</div>
+	</div>
+</div>
+
+<!-- End Post -->

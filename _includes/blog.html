@@ -1,0 +1,78 @@
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+
+		<div id="comments">
+			<div class="title">
+				<h3>Blog</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto">
+					{% for post in site.posts %} {% unless post.draft %}
+					<div class="media-area">
+						<div class="media row">
+							<div class="col-sm-12 col-md-2">
+								<a class="float-left"
+									href="{{ site.baseurl | append: post.url }}"
+									alt="{{ post.title }}">
+									<div class="avatar">
+										<img class="media-object"
+											src="{{ post.post_image }}" alt="...">
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-12 col-md-10">
+								<div class="media-body">
+									<h6 class="text-info">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}
+								    {% if post.meta %} • {{ post.meta }}{% endif %}</h6>
+								    <div class="row">
+										<div class="col-sm-8 pull-left">
+											<h4 class="media-heading">
+												<a href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+											</h4>
+								    	</div>
+								    	<div class="col-sm-4 pull-right">
+		                                    <a href="#" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i><div class="ripple-container"></div></a>
+		                                    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;" class="btn btn-just-icon btn-link btn-facebook"><i class="fa fa-facebook-square"></i></a>
+		                                    <a href="#" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;" class="btn btn-just-icon btn-link btn-google"><i class="fa fa-google"></i></a>
+		                                </div>
+		                            </div>
+	
+									<p>
+										{{ post.content | strip_html | truncate: 350 }} <a
+											href="{{ site.baseurl | append: post.url }}">continue
+											reading</a>
+									</p>
+									{% assign postUrl = site.myurl | append: site.baseurl | append: post.url %} 
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					{% endunless %} 
+					{% endfor %}
+					{% if paginator.total_pages > 1 %}
+					<div class="pagination-area">
+						<ul class="pagination justify-content-center text-center">
+							{% if paginator.previous_page %}
+							<li class="page-item"><a href="/page{{ paginator.previous_page }}" class="page-link">«</a></li>
+							{% else %}
+							<li class="page-item">«</li>
+							{% endif %}
+							<li class="page-item">{{ paginator.page }} of {{ paginator.total_pages }}</li>
+							{% if paginator.next_page %}
+							<li class="page-item"><a href="/page{{ paginator.next_page }}" class="page-link">»</a></li>
+							{% endif %}
+						</ul>
+					</div>
+					{% endif %}
+					<div class="row text-center">
+                    	<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
+                    </p>
+                </div>
+				</div>
+
+				<!-- end media-post -->
+			</div>
+		</div>
+	</div>
+</div>

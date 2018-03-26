@@ -1,0 +1,43 @@
+<nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <!-- <a class="navbar-brand" href="./index.html">Swiss Hacking Challenge </a> -->
+                <ul class="lang-switch">
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+				{% for p in pages %}
+				  <li>
+				    <a href="{{ p.url }}" {% if p.lang == page.lang %} class="btn btn-round selected" {% else %} class="btn btn-round"{% endif %}>{{ p.lang }}</a>
+				  </li>
+				{% endfor %}
+                </ul>
+                
+                <button class="navbar-toggler toggled" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                {% if site.data.toc.[page.lang][0] %}
+  				  {% for item in site.data.toc.[page.lang] %}
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons">{{ item.icon }}</i> {{ item.name }}
+                        <div class="ripple-container"></div></a>
+                        {% if item.sub[0] %}
+                        <div class="dropdown-menu dropdown-with-icons">
+                          {% for entry in item.sub %}
+                            <a href="{{ entry.url }}" class="dropdown-item">
+                                <i class="material-icons">{{ entry.icon }}</i> {{ entry.name }}
+                            </a>
+                          {% endfor %}
+                        </div>
+                        {% endif %}
+                    </li>
+                  {% endfor %}
+                {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>

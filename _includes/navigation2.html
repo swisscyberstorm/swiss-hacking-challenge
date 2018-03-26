@@ -1,0 +1,78 @@
+<nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <!-- <a class="navbar-brand" href="./index.html">Swiss Hacking Challenge </a> -->
+                <ul class="lang-switch">
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+				{% for p in pages %}
+				  <li>
+				    <a href="{{ p.url }}" {% if p.lang == page.lang %} class="btn btn-round selected" {% else %} class="btn btn-round"{% endif %}>{{ p.lang }}</a>
+				  </li>
+				{% endfor %}
+                </ul>
+                
+                <button class="navbar-toggler toggled" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons">apps</i> Home
+                        <div class="ripple-container"></div></a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./index.html" class="dropdown-item">
+                                <i class="material-icons">content_paste</i> Calendar
+                            </a>
+                            <a href="./docs/2.0/getting-started/introduction.html" class="dropdown-item">
+                                <i class="material-icons">people</i> Team 2018
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons">view_day</i> Challenge
+                        <div class="ripple-container"></div></a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./sections.html#headers" class="dropdown-item">
+                                <i class="material-icons">dns</i> Swiss Final 2017
+                            </a>
+                            <a href="./sections.html#features" class="dropdown-item">
+                                <i class="material-icons">build</i> Swiss Team 2017
+                            </a>
+                            <a href="./sections.html#blogs" class="dropdown-item">
+                                <i class="material-icons">list</i> ECSC 2017
+                            </a>
+                            <a href="./sections.html#teams" class="dropdown-item">
+                                <i class="material-icons">people</i> Previous Challenges
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons">view_carousel</i> About
+                        <div class="ripple-container"></div></a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./examples/about-us.html" class="dropdown-item">
+                                <i class="material-icons">account_balance</i> About Us
+                            </a>
+                            <a href="./examples/blog-post.html" class="dropdown-item">
+                                <i class="material-icons">art_track</i> Blog Post
+                            </a>
+                            <a href="./examples/blog-posts.html" class="dropdown-item">
+                                <i class="material-icons">view_quilt</i> Blog Posts
+                            </a>
+                            <a href="./examples/contact-us.html" class="dropdown-item">
+                                <i class="material-icons">location_on</i> Contact Us
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>

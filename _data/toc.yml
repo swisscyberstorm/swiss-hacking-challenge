@@ -1,0 +1,156 @@
+en:
+  - name: Home
+    url: index.html
+    icon: home
+    sub:
+      - name: Home
+        url: /index.html
+        icon: home
+      - name: "Calendar"
+        url: /calendar.html
+        icon: date_range
+      - name: "Blog Post"
+        url: /blog.html
+        icon: art_track
+  - name: Challenge
+    url: challenge.html
+    icon: apps
+    sub: 
+      - name: "Swiss Team 2017"
+        url: "/challenge/team2017.html"
+        icon: people
+      - name: "Swiss Final 2018"
+        url: "/challenge/final2017.html"
+        icon: class
+      - name: "ECSC 2017"
+        url: "/challenge/ecsc2017.html"
+        icon: card_membership
+      - name: "Gallery Swiss Final 2017"
+        url: "/challenge/galleryfinal2017.html"
+        icon: "photo_library"
+  - name: About
+    url: about.html
+    icon: account_balance
+    sub: 
+      - name: "About Us"
+        url: /about.html
+        icon: account_balance
+
+
+
+fr:
+  - name: Accueil
+    url: index.html
+    icon: home
+    sub:
+      - name: Accueil
+        url: /index_fr.html
+        icon: home
+      - name: "Calendrier"
+        url: /calendar_fr.html
+        icon: date_range
+      - name: "Blog"
+        url: /blog_fr.html
+        icon: art_track
+  - name: Challenge
+    url: challenge.html
+    icon: apps
+    sub: 
+      - name: "Équipe suisse 2017"
+        url: "/challenge/team2017_fr.html"
+        icon: people
+      - name: "Swiss Final 2018"
+        url: "/challenge/final2017.html"
+        icon: class
+      - name: "ECSC 2017"
+        url: "/challenge/ecsc2017_fr.html"
+        icon: card_membership
+      - name: "Gallerie Swiss Final 2017"
+        url: "/challenge/galleryfinal2017_fr.html"
+        icon: "photo_library"
+  - name: "À propos de nous"
+    url: about_fr.html
+    icon: account_balance
+    sub: 
+      - name: "À propos de nous"
+        url: /about_fr.html
+        icon: account_balance
+
+
+it:
+  - name: Home
+    url: index.html
+    icon: home
+    sub:
+      - name: Home
+        url: /index_it.html
+        icon: home
+      - name: "Calendario"
+        url: /calendar_it.html
+        icon: date_range
+      - name: "Blog"
+        url: /blog_it.html
+        icon: art_track
+  - name: Challenge
+    url: challenge.html
+    icon: apps
+    sub: 
+      - name: "Squadra svizzera 2017"
+        url: "/challenge/team2017_it.html"
+        icon: people
+      - name: "Swiss Final 2018"
+        url: "/challenge/final2017.html"
+        icon: class
+      - name: "ECSC 2017"
+        url: "/challenge/ecsc2017_it.html"
+        icon: card_membership
+      - name: "Galleria Swiss Final 2017"
+        url: "/challenge/galleryfinal2017_it.html"
+        icon: "photo_library"
+  - name: "Riguardo a noi"
+    url: about.html
+    icon: account_balance
+    sub: 
+      - name: "Riguardo a noi"
+        url: /about_it.html
+        icon: account_balance
+
+de:
+  - name: Home
+    url: index.html
+    icon: home
+    sub:
+      - name: Home
+        url: /index_de.html
+        icon: home
+      - name: "Kalender"
+        url: /calendar_de.html
+        icon: date_range
+      - name: "Blog"
+        url: /blog_de.html
+        icon: art_track
+  - name: Challenge
+    url: challenge.html
+    icon: apps
+    sub: 
+      - name: "Schweizer Team 2017"
+        url: "/challenge/team2017_de.html"
+        icon: people
+      - name: "Swiss Final 2018"
+        url: "/challenge/final2017_de.html"
+        icon: class
+      - name: "ECSC 2017"
+        url: "/challenge/ecsc2017_de.html"
+        icon: card_membership
+      - name: "Gallerie Swiss Final 2017"
+        url: "/challenge/galleryfinal2017_de.html"
+        icon: "photo_library"
+  - name: "Über uns"
+    url: about.html
+    icon: account_balance
+    sub: 
+      - name: "Über uns"
+        url: /about_de.html
+        icon: account_balance
+
+

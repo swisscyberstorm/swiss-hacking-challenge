@@ -1,0 +1,60 @@
+<!-- Begin Footer -->
+<footer class="footer footer-big">
+	<div class="container">
+		<div class="content">
+			<div class="row">
+				<div class="col-md-5">
+					<h5>About Us</h5>
+					<p>
+						The Swiss Cyber Storm is a non profit organization hosting the
+						international <a href="https://www.swisscyberstorm.com">Swiss Cyber Storm
+							Conference</a> and running the <a href="/challenges">Swiss Hacking Challenge</a> - the Swiss Qualifying
+						for the <a href="http://www.europeancybersecuritychallenge.eu"
+							target="_blank">European Cyber Security Challenges</a> - with a strong
+						focus of identifying and supporting young cyber talents.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h5>Links</h5>
+					<div class="social-feed">
+						{% for linkElement in site.footerLinks %}
+						<div class="feed-line">
+							<p>
+								<a
+									href="{% if linkElement.permalink %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"
+									{% if linkElement.link %}target="_blank"{% endif %}><i class="fa fa-fw fa-{{ linkElement.icon }}"></i> 
+									{{ linkElement.text }}</a>
+							</p>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h5>Follow us</h5>
+
+
+					<ul class="social-buttons">
+						{% for social in site.socialLinks %}
+						<li><a
+							class="btn btn-just-icon btn-link btn-{{ social.icon }}"
+							href="{% if social.permalink %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}"
+							target="_blank"> <i class="fa fa-fw fa-{{ social.icon }}"></i>
+						</a></li> {% endfor %}
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="copyright pull-center">
+			Copyright &copy; 2018 Swiss Cyber Storm - Hosting provided by <a
+				href="https://www.nine.ch/en/">nine.ch</a>
+			</p>
+
+		</div>
+	</div>
+</footer>
+
+
+<!-- End Footer -->
