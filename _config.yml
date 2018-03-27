@@ -27,7 +27,7 @@ socialLinks:
 footerLinks:
  - {link: "https://www.swisscyberstorm.com", text: "Swiss Cyber Strom", icon: "external-link"}
  - {link: "https://www.europeancybersecuritychallenge.eu/", text: "European Cyber Security Challenge", icon: "external-link"}
- - {link: "mailto:contact@swisscyberstorm.com", text: "Contact", icon: "envelope"}
+ - {link: "mailto:shc@swisscyberstorm.com", text: "Contact", icon: "envelope"}
    
 
 # PAGINATION
