@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 author: Benjamin Fehrensen
 description: Website of the Swiss Hacking Challenge, provided by the Swiss Cyber Storm
 keywords: Swiss Hacking Challenge, Swiss Cyber Storm, SCS, Swiss Final, ECSC, European Cyber Security Challenge 
-myurl: "https://www.swiss-hacking-challenge.ch" # the base hostname & protocol for your site
+mainurl: "https://www.swiss-hacking-challenge.ch" # the base hostname & protocol for your site
 
 
 
