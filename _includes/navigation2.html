@@ -19,59 +19,24 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
+                {% if site.data.toc.[page.lang][0] %}
+  				  {% for item in site.data.toc.[page.lang] %}
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
-                            <i class="material-icons">apps</i> Home
+                            <i class="material-icons">{{ item.icon }}</i> {{ item.name }}
                         <div class="ripple-container"></div></a>
+                        {% if item.sub[0] %}
                         <div class="dropdown-menu dropdown-with-icons">
-                            <a href="./index.html" class="dropdown-item">
-                                <i class="material-icons">content_paste</i> Calendar
+                          {% for entry in item.sub %}
+                            <a href="{{ entry.url }}" class="dropdown-item">
+                                <i class="material-icons">{{ entry.icon }}</i> {{ entry.name }}
                             </a>
-                            <a href="./docs/2.0/getting-started/introduction.html" class="dropdown-item">
-                                <i class="material-icons">people</i> Team 2018
-                            </a>
+                          {% endfor %}
                         </div>
+                        {% endif %}
                     </li>
-
-                    <li class="dropdown nav-item">
-                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
-                            <i class="material-icons">view_day</i> Challenge
-                        <div class="ripple-container"></div></a>
-                        <div class="dropdown-menu dropdown-with-icons">
-                            <a href="./sections.html#headers" class="dropdown-item">
-                                <i class="material-icons">dns</i> Swiss Final 2017
-                            </a>
-                            <a href="./sections.html#features" class="dropdown-item">
-                                <i class="material-icons">build</i> Swiss Team 2017
-                            </a>
-                            <a href="./sections.html#blogs" class="dropdown-item">
-                                <i class="material-icons">list</i> ECSC 2017
-                            </a>
-                            <a href="./sections.html#teams" class="dropdown-item">
-                                <i class="material-icons">people</i> Previous Challenges
-                            </a>
-                        </div>
-                    </li>
-                    
-                    <li class="dropdown nav-item">
-                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
-                            <i class="material-icons">view_carousel</i> About
-                        <div class="ripple-container"></div></a>
-                        <div class="dropdown-menu dropdown-with-icons">
-                            <a href="./examples/about-us.html" class="dropdown-item">
-                                <i class="material-icons">account_balance</i> About Us
-                            </a>
-                            <a href="./examples/blog-post.html" class="dropdown-item">
-                                <i class="material-icons">art_track</i> Blog Post
-                            </a>
-                            <a href="./examples/blog-posts.html" class="dropdown-item">
-                                <i class="material-icons">view_quilt</i> Blog Posts
-                            </a>
-                            <a href="./examples/contact-us.html" class="dropdown-item">
-                                <i class="material-icons">location_on</i> Contact Us
-                            </a>
-                        </div>
-                    </li>
+                  {% endfor %}
+                {% endif %}
                 </ul>
             </div>
         </div>
