@@ -19,7 +19,7 @@ en:
       - name: "Swiss Team 2017"
         url: "/challenge/team2017.html"
         icon: people
-      - name: "Swiss Final 2018"
+      - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
@@ -59,7 +59,7 @@ fr:
       - name: "Équipe suisse 2017"
         url: "/challenge/team2017_fr.html"
         icon: people
-      - name: "Swiss Final 2018"
+      - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
@@ -98,7 +98,7 @@ it:
       - name: "Squadra svizzera 2017"
         url: "/challenge/team2017_it.html"
         icon: people
-      - name: "Swiss Final 2018"
+      - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
@@ -136,7 +136,7 @@ de:
       - name: "Schweizer Team 2017"
         url: "/challenge/team2017_de.html"
         icon: people
-      - name: "Swiss Final 2018"
+      - name: "Swiss Final 2017"
         url: "/challenge/final2017_de.html"
         icon: class
       - name: "ECSC 2017"
