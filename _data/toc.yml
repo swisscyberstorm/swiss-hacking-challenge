@@ -25,7 +25,7 @@ en:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017.html"
         icon: card_membership
-      - name: "Gallery Swiss Final 2017"
+      - name: "Gallery Final 2017"
         url: "/challenge/galleryfinal2017.html"
         icon: "photo_library"
   - name: About
@@ -65,7 +65,7 @@ fr:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_fr.html"
         icon: card_membership
-      - name: "Gallerie Swiss Final 2017"
+      - name: "Gallerie Final 2017"
         url: "/challenge/galleryfinal2017_fr.html"
         icon: "photo_library"
   - name: "À propos de nous"
@@ -104,7 +104,7 @@ it:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_it.html"
         icon: card_membership
-      - name: "Galleria Swiss Final 2017"
+      - name: "Galleria Final 2017"
         url: "/challenge/galleryfinal2017_it.html"
         icon: "photo_library"
   - name: "Riguardo a noi"
@@ -142,7 +142,7 @@ de:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_de.html"
         icon: card_membership
-      - name: "Gallerie Swiss Final 2017"
+      - name: "Gallerie Final 2017"
         url: "/challenge/galleryfinal2017_de.html"
         icon: "photo_library"
   - name: "Über uns"
