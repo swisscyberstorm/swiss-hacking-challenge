@@ -16,25 +16,41 @@ en:
     url: challenge.html
     icon: apps
     sub: 
-      - name: "Swiss Team 2017"
-        url: "/challenge/team2017.html"
-        icon: people
+#      - name: "Swiss Team 2017"
+#        url: "/challenge/team2017.html"
+#        icon: people
       - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017.html"
         icon: card_membership
-      - name: "Gallery Final 2017"
-        url: "/challenge/galleryfinal2017.html"
-        icon: "photo_library"
+  - name: Gallery
+    icon: photo_library
+    sub:
+      - name: "SHC 2014"
+        url: "/gallery/gallery2014.html"
+        icon: "image"
+      - name: "SHC 2015"
+        url: "/gallery/gallery2015.html"
+        icon: "image"
+      - name: "SHC 2016"
+        url: "/gallery/gallerysursee2016.html"
+        icon: "image"
+      - name: "SHC 2017"
+        url: "/gallery/galleryfinal2017.html"
+        icon: "image"
   - name: About
     url: about.html
     icon: account_balance
     sub: 
       - name: "About Us"
-        url: /about.html
+        url: /about/about.html
         icon: account_balance
+      - name: "SCS Team"
+        url: /about/team.html
+        icon: group
+
 
 
 
@@ -56,17 +72,29 @@ fr:
     url: challenge.html
     icon: apps
     sub: 
-      - name: "Équipe suisse 2017"
-        url: "/challenge/team2017_fr.html"
-        icon: people
+#      - name: "Équipe suisse 2017"
+#        url: "/challenge/team2017_fr.html"
+#        icon: people
       - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_fr.html"
         icon: card_membership
-      - name: "Gallerie Final 2017"
-        url: "/challenge/galleryfinal2017_fr.html"
+  - name: Gallerie
+    icon: apps
+    sub:
+      - name: "SHC 2014"
+        url: "/gallery/gallery2014_fr.html"
+        icon: "image"
+      - name: "SHC 2015"
+        url: "/gallery/gallery2015_fr.html"
+        icon: "image"
+      - name: "SHC 2016"
+        url: "/gallery/gallerysursee2016_fr.html"
+        icon: "photo_library"
+      - name: "SHC 2017"
+        url: "/gallery/galleryfinal2017_fr.html"
         icon: "photo_library"
   - name: "À propos de nous"
     url: about_fr.html
@@ -75,6 +103,9 @@ fr:
       - name: "À propos de nous"
         url: /about_fr.html
         icon: account_balance
+      - name: "Équipe SCS"
+        url: /about/team_fr.html
+        icon: group
 
 
 it:
@@ -95,17 +126,29 @@ it:
     url: challenge.html
     icon: apps
     sub: 
-      - name: "Squadra svizzera 2017"
-        url: "/challenge/team2017_it.html"
-        icon: people
+#      - name: "Squadra svizzera 2017"
+#        url: "/challenge/team2017_it.html"
+#        icon: people
       - name: "Swiss Final 2017"
         url: "/challenge/final2017.html"
         icon: class
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_it.html"
         icon: card_membership
-      - name: "Galleria Final 2017"
-        url: "/challenge/galleryfinal2017_it.html"
+  - name: Galleria
+    icon: apps
+    sub:
+      - name: "SHC 2014"
+        url: "/gallery/gallery2014_it.html"
+        icon: "image"
+      - name: "SHC 2015"
+        url: "/gallery/gallery2015_it.html"
+        icon: "image"
+      - name: "SHC 2016"
+        url: "/gallery/gallerysursee2016_it.html"
+        icon: "photo_library"
+      - name: "SHC 2017"
+        url: "/gallery/galleryfinal2017_it.html"
         icon: "photo_library"
   - name: "Riguardo a noi"
     url: about.html
@@ -114,6 +157,9 @@ it:
       - name: "Riguardo a noi"
         url: /about_it.html
         icon: account_balance
+      - name: "Squadra SCS"
+        url: /about/team_it.html
+        icon: group
 
 de:
   - name: Home
@@ -133,18 +179,30 @@ de:
     url: challenge.html
     icon: apps
     sub: 
-      - name: "Schweizer Team 2017"
-        url: "/challenge/team2017_de.html"
-        icon: people
+#      - name: "Schweizer Team 2017"
+#        url: "/challenge/team2017_de.html"
+#        icon: people
       - name: "Swiss Final 2017"
         url: "/challenge/final2017_de.html"
         icon: class
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_de.html"
         icon: card_membership
-      - name: "Gallerie Final 2017"
-        url: "/challenge/galleryfinal2017_de.html"
-        icon: "photo_library"
+  - name: Gallerie
+    icon: photo_library
+    sub:
+      - name: "SHC 2014"
+        url: "/gallery/gallery2014_de.html"
+        icon: "image"
+      - name: "SHC 2015"
+        url: "/gallery/gallery2015_de.html"
+        icon: "image"
+      - name: "SHC 2016"
+        url: "/gallery/gallerysursee2016_de.html"
+        icon: "image"
+      - name: "SHC 2017"
+        url: "/gallery/galleryfinal2017_de.html"
+        icon: "image"      
   - name: "Über uns"
     url: about.html
     icon: account_balance
@@ -152,5 +210,8 @@ de:
       - name: "Über uns"
         url: /about_de.html
         icon: account_balance
+      - name: "SCS Team"
+        url: /about/team_de.html
+        icon: group
 
 

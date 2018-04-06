@@ -1,0 +1,31 @@
+---
+title: Swiss National Team Selection
+lang: en
+ref: gallerysursee2017
+layout: gallery
+header_image: /img/gallery2016/052B0032.JPG
+
+---
+
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<h2>Campus Sursee 2016</h2>
+		<div id="blueimp-gallery" class="blueimp-gallery">
+			<div class="slides"></div>
+			<h3 class="title"></h3>
+			<a class="prev">‹</a> <a class="next">›</a> <a class="close">×</a> <a
+				class="play-pause"></a>
+			<ol class="indicator"></ol>
+		</div>
+		<div id="links">
+		{% loop_directory directory:img/gallery2016 iterator:file filter:* sort:descending %}
+		   {% if file != 'thumbnails' %}
+		     <a href="/img/gallery2016/{{ file }}" title="{{ file }}">
+		        <img src="/img/gallery2016/thumbnails/thumb-{{ file }}" alt="{{ file }}">
+		     </a>
+		   {% endif %}
+		{% endloop_directory %}
+		</div>
+	
+	</div>
+</div>

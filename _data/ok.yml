@@ -1,0 +1,56 @@
+member:
+  - name: Dr. Bernhard Tellenbach
+    role: President
+    affiliation: Lecturer, Zurich University of Applied Sciences (ZHAW)
+    url: https://www.zhaw.ch/en/university/
+    image: /img/about/bernhard_tellenbach.jpg
+  - name: Dr. Adrian Bachmann
+    role: Vice President / CFO 
+    affiliation: CEO, IT Security Consultant, TEMET AG
+    url: https://www.temet.ch/
+    image: /img/about/adrian_bachmann.jpg
+  - name: Ivan Bütler
+    role: Security Challenges
+    affiliation: CEO, Compass Security AG
+    url: https://www.compass-security.com/en/
+    image: /img/about/ivan_buetler.jpg
+  - name: lic. phil. I Mark A. Saxer
+    role: Public Relations
+    affiliation: Partner, Furrer.Hugi&Partner AG
+    url: 
+    image: /img/about/mark_saxer.jpg
+  - name: Dr. Christian Folini
+    role: Speaker and Sponsors
+    affiliation: Security Consultant, netnea.com
+    url: http://www.netnea.com/cms/
+    image: /img/about/christian_folini.png
+  - name: Dr. Benjamin Fehrensen
+    role: Challenge Support
+    affiliation: UBS AG
+    url: https://www.ubs.com
+    image: /img/about/benjamin_fehrensen.png
+  - name: Prof. Dr. Bernhard Hämmerli
+    role: Support
+    affiliation: Lucerne University of Applied Sciences and Arts
+    url: https://www.hslu.ch/
+    image: /img/about/bernhard_haemmerli.jpg
+  - name: Roger Blum
+    role: Infrastructure Support
+    affiliation: Security Engineer, Open Systems AG
+    url: https://www.open.ch/
+    image: /img/about/roger_blum.jpg
+  - name: Philippe Schnyder
+    role: Support (Program / Venue / Speaker)
+    affiliation: Swisscom AG
+    url: https://www.swisscom.ch/
+    image: /img/about/philippe_schnyder.jpg
+  - name: Valentin Zahnd
+    role: Swiss Whitehatters Academy 
+    affiliation: Senior Security Consultant, Consecom AG
+    url: https://www.consecom.com/
+    image: /img/about/valentin_zahnd.jpg
+  - name: Adrian von Arx
+    role: Coach National Hacking Team 
+    affiliation: Team leader, !frappant
+    url: https://frappant.ch/
+    image: /img/about/avarx-500x500.jpg

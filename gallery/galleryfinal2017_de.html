@@ -1,0 +1,31 @@
+---
+title: Swiss Hacking Challenge
+lang: de
+ref: galleryfinal2017
+layout: gallery
+header_image: /img/backgrounds/metaexploit.jpg
+
+---
+
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<h2>Campus Sursee 2017</h2>
+		<div id="blueimp-gallery" class="blueimp-gallery">
+			<div class="slides"></div>
+			<h3 class="title"></h3>
+			<a class="prev">‹</a> <a class="next">›</a> <a class="close">×</a> <a
+				class="play-pause"></a>
+			<ol class="indicator"></ol>
+		</div>
+		<div id="links">
+		{% loop_directory directory:img/gallerySCSChallenges2017 iterator:file filter:* sort:descending %}
+		   {% if file != 'thumbnails' %}
+		     <a href="/img/gallerySCSChallenges2017/{{ file }}" title="{{ file }}">
+		        <img src="/img/gallerySCSChallenges2017/thumbnails/thumb-{{ file }}" alt="{{ file }}">
+		     </a>
+		   {% endif %}
+		{% endloop_directory %}
+		</div>
+	
+	</div>
+</div>

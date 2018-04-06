@@ -1,0 +1,40 @@
+---
+title: SCS Team
+lang: en
+ref: team
+layout: default
+header_image: /img/backgrounds/Participants_CyberStorm_2015.jpg
+
+---
+
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<article>
+			<h2>SCS Team</h2>
+			
+			
+			
+			<div class="row">
+			{% for m in site.data.ok.member %}
+				<div class="col-lg-3 col-md-4">
+					<div class="card card-blog card-plain">
+						<div>
+							<img class="img-raised rounded-circle img-fluid"
+								src="{{ m.image }}"
+								alt="{{ m.name }}" width=200>
+						</div>
+						<div class="card-body ">
+							<p style="margin-bottom: 0px;font-size: 16px" class="card-description">{{ m.name }}</p>
+							<p style="margin-bottom: 0px;font-size: 16px" class="card-description">{{ m.role }}</p>
+							<a
+								href="{{ m.url }}">{{ m.affiliation }}</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+			</div>
+
+		</article>
+		
+	</div>
+</div>
