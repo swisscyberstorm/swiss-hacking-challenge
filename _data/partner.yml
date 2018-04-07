@@ -1,0 +1,13 @@
+---
+- www: http://www.vtg.admin.ch/de/organisation/fub.html
+  image: /img/sponsors/FUB-mit-text.svg
+  text: Partner VBS - Führungsunterstützungsbasis FUB
+  type: Partner
+- www: https://www.melani.admin.ch/
+  image: /img/sponsors/melani.png
+  text: Partner - MEALNI Melde- und Analysestelle Informationssicherung 
+  type: Partner
+- www: http://www.satw.ch/en/
+  image: /img/sponsors/satwLogoClaimrechts_4c.png
+  text: Partner - Swiss Academy of Engineering Science
+  type: Partner

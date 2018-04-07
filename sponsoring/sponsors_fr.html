@@ -1,0 +1,117 @@
+---
+title: Parrainer 2018
+lang: fr
+ref: sponsors
+layout: default
+
+---
+
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<h3>Mercie</h3>
+		<p>
+			Nous sommes heureux d'avoir chacun d'entre eux à bord. Nous croyons qu'ils ne sont pas seulement les bons partenaires
+pour nous mais aussi pour vous. Entrez en contact avec eux et regardez ce qu'ils ont à offrir!
+		</p>
+		<h3>Gold</h3>
+
+		<div class="row">
+			{% assign sponsors = site.data.sponsors | where: "type", "GOLD" %}
+			{% for item in sponsors %}
+			<div class="col-md-6">
+				<div class="card card-plain">
+					<a href="{{item.www}}">
+						<div class="card-header-image" style="padding-top: {{item.padding}}px; padding-bottom: {{item.padding}}px; ">
+							<img
+								src="{{item.image}}" width="100%">
+						</div>
+					</a>
+					<div class="card-body ">
+						<a href="{{item.www}}">
+							<h4 class="card-title">{{item.image-alt}}</h4>
+						</a>
+						<h6 class="card-category">{{item.type}} Sponsor</h6>
+						<p class="card-description">{{item.profile}}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		
+		<h3>Silver</h3>
+
+		<div class="row">
+			{% assign sponsors = site.data.sponsors | where: "type", "SILVER" %}
+			{% for item in sponsors %}
+			<div class="col-md-4">
+				<div class="card card-plain">
+					<a href="{{item.www}}">
+						<div class="card-header-image" style="padding-top: {{item.padding}}px; padding-bottom: {{item.padding}}px; ">
+							<img
+								src="{{item.image}}" width="100%">
+						</div>
+					</a>
+					<div class="card-body ">
+						<a href="{{item.www}}">
+							<h4 class="card-title">{{item.image-alt}}</h4>
+						</a>
+						<h6 class="card-category">{{item.type}} Sponsor</h6>
+						<p class="card-description">{{item.profile}}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		
+		<h3>Contributor</h3>
+
+		<div class="row">
+			{% assign sponsors = site.data.sponsors | where: "type", "CONTRIBUTOR" %}
+			{% for item in sponsors %}
+			<div class="col-md-4">
+				<div class="card card-plain">
+					<a href="{{item.www}}">
+						<div class="card-header-image" style="padding-top: {{item.padding}}px; padding-bottom: {{item.padding}}px; ">
+							<img
+								src="{{item.image}}" width="100%">
+						</div>
+					</a>
+					<div class="card-body ">
+						<a href="{{item.www}}">
+							<h4 class="card-title">{{item.image-alt}}</h4>
+						</a>
+						<h6 class="card-category">{{item.type}} Sponsor</h6>
+						<p class="card-description">{{item.profile}}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		
+		<h3>Academy</h3>
+
+		<div class="row">
+			{% assign sponsors = site.data.sponsors | where: "type", "ACADEMY" %}
+			{% for item in sponsors %}
+			<div class="col-md-4">
+				<div class="card card-plain">
+					<a href="{{item.www}}">
+						<div class="card-header-image" style="padding-top: {{item.padding}}px; padding-bottom: {{item.padding}}px; ">
+							<img
+								src="{{item.image}}" width="100%">
+						</div>
+					</a>
+					<div class="card-body ">
+						<a href="{{item.www}}">
+							<h4 class="card-title">{{item.image-alt}}</h4>
+						</a>
+						<h6 class="card-category">{{item.type}} Sponsor</h6>
+						<p class="card-description">{{item.profile}}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		
+	</div>
+</div>

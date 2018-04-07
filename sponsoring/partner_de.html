@@ -1,0 +1,39 @@
+---
+title: SCS Partner
+lang: de
+ref: partner
+layout: default
+
+---
+
+<div class="section-content">
+	<div class="section-inner sectionLayout--insetColumn">
+		<h3>SCS Partner</h3>
+		<p>
+			Swiss Cyber Storm wird unterstützt von der Schweizer Armee, dem Melde- und Analysezentrum für Informationssicherung MELANI und der Schweizerischen Akademie der Technischen Wissenschaften (SATW). Darüber hinaus wird die European Cyber Security Challenge von der Europäischen Agentur für Netz- und Informationssicherheit (ENISA) sowie von den Organisationen unterstützt, die jeweils die nationalen Wettbewerbe für die einzelnen teilnehmenden Länder organisiert haben.		</p>
+
+
+		<div class="row">
+			{% for item in site.data.partner %}
+			<div class="col-md-4">
+				<div class="card card-plain">
+					<a href="{{item.www}}">
+						<div class="card-header-image" style="padding-top: {{item.padding}}px; padding-bottom: {{item.padding}}px; ">
+							<img
+								src="{{item.image}}" width="100%">
+						</div>
+					</a>
+					<div class="card-body ">
+						<a href="{{item.www}}">
+							<h4 class="card-title">{{item.image-alt}}</h4>
+						</a>
+						<h6 class="card-category">{{item.type}} Sponsor</h6>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		
+		
+	</div>
+</div>

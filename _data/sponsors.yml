@@ -1,0 +1,122 @@
+- www: https://fl1.li/de/geschaeftskunden/solutions/managed-security-services
+  image: /img/sponsors/Cybersecurity-Alliance.svg
+  image-alt: FL1 silence force
+  profile: <strong><a href='https://fl1.li/de/geschaeftskunden/solutions/managed-security-services/managed-it-security-services/vorgehensweise-ergebnisse' target='_blank'>RadarServices</a></strong> is Europe's leading technology company in the field of Detection &amp; Response. In focus&#58; The early detection of IT security risks for corporations and public authorities offered as a Solution or a Managed Service. The cutting-edge, inhouse-developed technology platform is the basis used for building up a client’s Security Operations Center (SOC) or it is used in combination with our expert analysts, documented processes and best practices as SOC as a Service. The result&#58; Highly effective and efficient improvement of IT security and IT risk management, continuous IT security monitoring and an overview of security-related information throughout the entire IT landscape of an organization.<br>  <strong><a href='https://fl1.ch/' target='_blank'>FL1 (Telecom Liechtenstein AG)</a></strong> offers the RadarServices-portfolio out of Liechtenstein. The first convergent Full-Service-Provider in Liechtenstein therewith complements its portfolio with next generation Managed Security Services. The strategic partnership of the Principality of Liechtenstein (75.1 %) with the Telekom Austria Group (24.9 %) ensures access to the latest technologies, an international network and Machine-to-Machine solutions.  
+  padding: 5
+  type: GOLD
+- www: https://www.aspectra.ch/
+  image: /img/sponsors/ASP_logo_pos_mit_claim_CMYK.svg
+  image-alt:  aspectra
+  profile: "<strong><a href='https://www.aspectra.ch/'>aspectra</a></strong> is the Swiss leader in dedicated hosting. The company implements, operates and monitors IT environments for business-critical applications, securely and with a high level of availability. Our IT outsourcing complies with FINMA-RS08/7 and is ISO 27001-certified."
+  padding: 0
+  type: SILVER
+- www: https://www.compass-security.com
+  image: /img/sponsors/compass_logo.svg
+  image-alt:  Compass Security AG
+  profile: "<strong><a href='https://www.compass-security.com/' target='_blank'>Compass Security</a></strong> is a well renowned European company specializing in penetration testing, incident response, digital forensics, and security trainings. Our research and community contributions regularly gain international recognition. Our employees have presented at the highly regarded security conferences, such as Black Hat Las Vegas and Microsoft's invite only conference, called Blue Hat, in Redmond. With <a href='https://www.hacking-lab.com/'>Hacking-Lab</a>, the flagship project of Compass Security, a comprehensive attack/defense <a href='https://www.hacking-lab-ctf.com/'>CTF system</a> is provided to run the <a href='http://www.europeancybersecuritychallenge.eu/'>European Cyber Security Challenge</a>. Hacking-Lab is licensed to numerous universities worldwide for educational purposes, with its aims of building young cyber talents as well as encouraging them to pursue a career in cyber security. Build your skills and join us for exciting challenges. <a href='https://www.compass-security.com/'>www.compass-security.com</a>"
+  padding: 8
+  type: SILVER
+- www: https://www.elca.ch/
+  image: /img/sponsors/ELCA_B_rgb_positive_300dpi.png
+  image-alt: ELCA Informatik AG
+  profile: ELCA – We make it work! ELCA ist einer der grössten unabhängigen Schweizer Anbieter von IT-Lösungen und führend in den Bereichen IT-Business-Consulting, Softwareentwicklung und -wartung sowie IT-Systemintegration. ELCA-Lösungen verringern Komplexität, verkürzen Innovationszyklen, verbessern Geschäftsergebnisse und erhöhen die Kundenzufriedenheit. Das Unternehmen im Privatbesitz beschäftigt über 900 Experten und hat Niederlassungen in Lausanne, Zürich, Genf, Bern, Basel, Paris, Madrid, London, Granada (Nearshore-Entwicklung) und Ho-Chi-Minh-City (Offshore-Entwicklung), die alle nach einem gemeinsamen Verfahrenssystem arbeiten.
+  padding: 50
+  type: SILVER
+- www: https://www.infoguard.ch/
+  image: /img/sponsors/InfoGuard-Logo.svg
+  image-alt:  InfoGuard
+  profile: <strong>InfoGuard</strong> is a leading and innovative Swiss company providing
+    comprehensive information security and network solutions. Our competences include
+    raising awareness, strategic and technical consultancy and auditing, as well as
+    the implementation and the support of network and security solutions.
+  padding: 20
+  type: SILVER
+- www: https://www.kudelskisecurity.com/
+  profile: <b>Kudelski Security</b> is an independent cybersecurity partner to large enterprise and public sector clients, delivering relevant, workable solutions to address their toughest security challenges. <br>Responding to shifts in global markets and technology, the Group has leveraged its engineering capabilities to become the market leader in media content security and public access solutions. Kudelski Security was founded as a logical extension to the Group’s expertise in digital asset security. With our legacy of technological experience and our strong client-oriented approach, our belief is that the company is uniquely positioned to deliver effective end-to-end cybersecurity for large organizations around the world.<br>Our global reach and cyber solutions focus is reinforced by key international partnerships. This includes alliances with the world’s leading security technology firms as well as with experts in specialized services, so clients have access to the tools, knowledge and talent to realize complete cybersecurity programs. <br>Kudelski Security has more than 300 employees, and locations in Europe and the United States.
+  image: /img/sponsors/Kudelski_logo.png
+  image-alt: Kudelski Security
+  padding: 8
+  type: SILVER
+- www: http://www.nttcomsecurity.ch
+  image: /img/sponsors/NTTSecurity_Logo_cs6_EN.svg
+  image-alt:  NTT Security
+  profile: <strong>NTT Security</strong>  is the specialized security company of NTT Group (Nippon Telegraph and Telephone Corporation), one of the largest ICT companies in the world. NTT Security delivers secure and resilient business solutions to enable clients’ digital transformation needs. NTT Security has 10 SOCs, seven R&D centers, over 1,500 security experts and handles hundreds of thousands of security incidents annually across six continents.<br> NTT Security in Switzerland ensures that resources are used effectively by delivering the right mix of consulting, managed services and technology – making best use of local resources and leveraging our global capabilities.
+  padding: 0
+  type: SILVER
+- www: https://www.oneconsult.com/
+  image: /img/sponsors/oneconsult_logo_payoff_CMYK.svg
+  image-alt:  Oneconsult
+  profile: <strong>Oneconsult</strong> group is your renowned Swiss cyber security services partner since 2003 with offices in Switzerland and Germany and 1300+ completed security projects worldwide. Get expert advice from an owner-managed and vendor-independent consultancy with 30+ highly qualified cyber security experts, including certified penetration testers (OPST, OPSA, OSCP, OSCE, GXPN), digital forensics specialists (GCFA, GCFE, GREM), ISO security auditors (ISO 27001 Lead Auditor) and dedicated IT security researchers to solve even your most demanding information security challenges. Together we address your external and internal threats such as malware infections, hacker attacks and APT as well as digital fraud and data leakage with core services like penetration tests / ethical hacking, real-life APT tests and ISO 27001 security audits. In case of emergency, Oneconsult’s incident response &amp; IT forensics team supports you with around-the-clock expert assistance (24 h x 365 days).
+  mpadding: 40
+  type: SILVER
+- www: https://www.oneconsult.com/
+  image: /img/sponsors/oneconsult_logo_payoff_CMYK.svg
+  image-alt: Oneconsult AG
+  profile: <strong>Oneconsult</strong> group is your renowned Swiss cyber security services partner since 2003 with offices in Switzerland and Germany and 1300+ completed security projects worldwide. Get expert advice from an owner-managed and vendor-independent consultancy with 30+ highly qualified cyber security experts, including certified penetration testers (OPST, OPSA, OSCP, OSCE, GXPN), digital forensics specialists (GCFA, GCFE, GREM), ISO security auditors (ISO 27001 Lead Auditor) and dedicated IT security researchers to solve even your most demanding information security challenges. Together we address your external and internal threats such as malware infections, hacker attacks and APT as well as digital fraud and data leakage with core services like penetration tests / ethical hacking, real-life APT tests and ISO 27001 security audits. In case of emergency, Oneconsult’s incident response &amp; IT forensics team supports you with around-the-clock expert assistance (24 h x 365 days).
+  max-width: 95%
+  show-abstract: noshow
+  type: CONTRIBUTOR
+#- www: http://www.pwc.ch/cybersecurity
+#  image: /img/sponsors/pwc_logo.svg
+#  image-alt:  PwC Switzerland
+#  profile: "At <strong>PwC</strong>, our purpose is to build trust in society and solve important problems. We're a network of firms in 157 countries with more than 208,000 people who are committed to delivering quality in assurance, advisory and tax services. Within PwC Switzerland around 2,800 employees and partners in 14 locations in Switzerland and one in the Principality of Liechtenstein help to create the value organisations and individuals are looking for. PwC Digital Services in Switzerland is part of a worldwide community of experts dedicated to helping you not just face digital disruption, but also to thrive on it. Our integrated digital solutions span innovation and strategy through to execution. We combine multi-disciplinary capabilities in digital strategy, transformation, user experience and design, cybersecurity as well as data analytics to help clients with all aspects of their digital transformation."
+#  max-width: 41.25%
+#  type: SILVER
+- www: http://www.temet.ch
+  image: /img/sponsors/temet_logo.svg
+  image-alt:  TEMET
+  profile: <strong>TEMET AG</strong> is a privately owned information security consulting company located in Zurich, Switzerland. It provides vendor independent project management and consulting services in all areas of information security, such as Identity and Access Management (IAM), Cyber Security and Information Security Management Systems (ISMS) solutions. Furthermore we perform Risk Assessments as well as Audits according to the international standards (ISO/IEC 27000 Series, COBIT, NIST, PCI DSS). Our consultants have a background in engineering and project management, and they are experienced practitioners. Temet currently employs 12 information security experts and has more than 75 Swiss customers in the areas of financial institutions, public authorities, critical infrastructures, insurers and health services.
+  padding: 0
+  type: SILVER
+#- www: http://www.trendmicro.de
+#  image: /img/sponsors/trendmicro_logo.svg
+#  image-alt:  Trend Micro
+#  profile: <strong>Trend Micro Incorporated</strong>, a global leader in security
+#    software, strives to make the world safe for exchanging digital information. Our
+#    innovative solutions for consumers, businesses and governments provide layered
+#    content security to protect information on mobile devices, endpoints, gateways,
+#    servers and the cloud. All of our solutions are powered by cloud-based global
+#    threat intelligence, the Trend Micro™ Smart Protection Network™, and are supported
+#    by over 1,200 threat experts around the globe. For more information, visit www.trendmicro.com.
+#  max-width: 53.56%
+#  type: SILVER
+#- www: http://www.open.ch
+#  image: /img/sponsors/open-systems.svg
+#  image-alt: CONTRIBUTOR Sponsor - Open Systems
+#  profile: "<strong>Open Systems</strong> is one of the leading enterprise security providers in Europe, focusing on network security, application delivery, identity management and global connectivity − all integrated by service management.<br> Renowned global enterprises and NGOs use Mission Control Security Services by Open Systems to secure the availability and performance of their business-critical applications and networks. With Mission Control Centers in Zurich and Sydney, Open Systems currently operates in over 180 countries worldwide − 24x7, 365 days a year."
+#  padding: 0
+#  type: CONTRIBUTOR
+- www: http://www.terreactive.ch/
+  image: /img/sponsors/terreactive_logo.svg
+  image-alt: terreActive AG
+  profile: <a href='http://www.terreactive.ch' target='_blank'><strong>terreActive</strong></a> is one of the leading IT security experts
+    with main focus on Security Monitoring and Log Management. As a Swiss engineering
+    company with outstanding know-how our services include Consulting, Integration
+    and Operation. We design comprehensive concepts for international enterprises,
+    small e-business companies as well as for private banks.
+  padding: 0
+  type: SILVER
+- www: https://www.bfh.ch
+  image: /img/sponsors/bfh_logo.svg
+  image-alt: Bern University of Applied Science
+  profile: '<strong>Bern University of Applied Sciences (BFH)</strong> is an application-oriented university. In addition to teaching, the university provides continuing education, research and development and services relating to its core competences. Anyone who studies at Bern University of Applied Sciences can do so in an interdisciplinary way and in an international context, without setting foot outside the University: within its six departments, a range of subjects as varied as nursing, food technology and sports are taught. It is also a meeting point for students from many diverse countries.'
+  padding: 20
+  type: ACADEMY
+- www: https://www.zhaw.ch
+  image: /img/sponsors/zhaw_logo.svg
+  image-alt: Zurich University of Applied Sciences (ZHAW)
+  profile: '<strong>Zurich University of Applied Sciences (ZHAW)</strong> The ZHAW is one of the leading universities of applied sciences in Switzerland. Teaching, research, continuing education and other services are both scientifically-based and practice-oriented.  In our work in research and development, we concentrate on important societal challenges, with a particular focus on energy and social integration. With locations in Winterthur, Zurich and Wädenswil, the ZHAW is firmly integrated in the local region whilst also collaborating with international partners. There are eight Schools in the University: Applied Linguistics, Applied Psychology, Architecture, Design and Civil Engineering, Engineering, Health Professions, Life Sciences and Facility Management, Management and Law, and Social Work.'
+  padding: 0
+  type: ACADEMY
+- www: https://www.hsr.ch
+  image: /img/sponsors/hsr_logo.svg
+  image-alt: Hochschule für Technik Rapperswil
+  profile: 'The <strong>HSR Hochschule für Technik Rapperswil</strong> offers bachelor and master courses, post-graduate studies and courses as well as a variety of additional further education possibilities in all its specialist fields.  The second central area of activity at the HSR is application-oriented research and development and also services. Effective and practicable solutions are developed in a total of 17 institutes – in close cooperation with those commissioning the work in the private and public sectors.'
+  padding: 0
+  type: ACADEMY
+- www:: https://www.hslu.ch
+  image: /img/sponsors/hslu.png
+  image-alt: Hochschule Luzern – Informatik
+  profile: The most comprehensive range of IT study programs taught at one central location. <br>The Lucerne University of Applied Sciences and Arts is the first Swiss university of applied sciences to have its own School of Information Technology. More than 600 students are enrolled in the bachelor’s degree programs in Digital Ideation, Computer Science and Business Information Technology and master’s degree programs in Engineering and Business Information Technology at the Zug-Rotkreuz campus. The School of Information Technology is focusing its research on new areas of interest, ranging from artificial intelligence, machine learning and mobile and smart systems all the way to blockchain, smart contracts and visual computing. Numerous partners from the public and private sector benefit from the project skills and professional expertise of the researchers. <br>Continuing and executive education programs include the Master of Advanced Studies and Certificate of Advanced Studies in four attractive specialist areas. Courses, seminars and conferences lasting one or more days are also available. The Lucerne School of Information Technology also has outstanding links to domestic and foreign universities as well as to partners from all areas of economic, administrative, cultural and social life.
+  padding: 0
+  type: ACADEMY

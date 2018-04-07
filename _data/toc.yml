@@ -25,6 +25,20 @@ en:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017.html"
         icon: card_membership
+  - name: Sponsoring
+    url: sponsos.html
+    icon: thumb_up
+    sub: 
+      - name: "Sponsors 2018"
+        url: "/sponsoring/sponsors.html"
+        icon: thumb_up
+      - name: "Become a Sponsor"
+        url: "/sponsoring/becomeSponsor.html"
+        icon: sentiment_very_satisfied
+      - name: "Partner"
+        url: "/sponsoring/partner.html"
+        icon: thumb_up
+        
   - name: Gallery
     icon: photo_library
     sub:
@@ -81,6 +95,19 @@ fr:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_fr.html"
         icon: card_membership
+  - name: Sponsoring
+    url: sponsos.html
+    icon: thumb_up
+    sub: 
+      - name: "Sponsors 2018"
+        url: "/sponsoring/sponsors_fr.html"
+        icon: thumb_up
+      - name: "Become a Sponsor"
+        url: "/sponsoring/becomeSponsor.html"
+        icon: sentiment_very_satisfied
+      - name: "Partner"
+        url: "/sponsoring/partner.html"
+        icon: thumb_up
   - name: Gallerie
     icon: apps
     sub:
@@ -101,7 +128,7 @@ fr:
     icon: account_balance
     sub: 
       - name: "À propos de nous"
-        url: /about_fr.html
+        url: /about/about_fr.html
         icon: account_balance
       - name: "Équipe SCS"
         url: /about/team_fr.html
@@ -135,6 +162,19 @@ it:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_it.html"
         icon: card_membership
+  - name: Sponsoring
+    url: sponsos.html
+    icon: thumb_up
+    sub: 
+      - name: "Sponsors 2018"
+        url: "/sponsoring/sponsors_it.html"
+        icon: thumb_up
+      - name: "Become a Sponsor"
+        url: "/sponsoring/becomeSponsor.html"
+        icon: sentiment_very_satisfied
+      - name: "Partner"
+        url: "/sponsoring/partner.html"
+        icon: thumb_up
   - name: Galleria
     icon: apps
     sub:
@@ -155,7 +195,7 @@ it:
     icon: account_balance
     sub: 
       - name: "Riguardo a noi"
-        url: /about_it.html
+        url: /about/about_it.html
         icon: account_balance
       - name: "Squadra SCS"
         url: /about/team_it.html
@@ -188,6 +228,19 @@ de:
       - name: "ECSC 2017"
         url: "/challenge/ecsc2017_de.html"
         icon: card_membership
+  - name: Sponsoring
+    url: sponsos.html
+    icon: thumb_up
+    sub: 
+      - name: "Sponsors 2018"
+        url: "/sponsoring/sponsors_de.html"
+        icon: thumb_up
+      - name: "Become a Sponsor"
+        url: "/sponsoring/becomeSponsor_de.html"
+        icon: sentiment_very_satisfied
+      - name: "Partner"
+        url: "/sponsoring/partner_de.html"
+        icon: thumb_up
   - name: Gallerie
     icon: photo_library
     sub:
@@ -208,7 +261,7 @@ de:
     icon: account_balance
     sub: 
       - name: "Über uns"
-        url: /about_de.html
+        url: /about/about_de.html
         icon: account_balance
       - name: "SCS Team"
         url: /about/team_de.html
